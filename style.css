@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+.navbar-header {
+  height: 320px;
+  
+}
+.iso {
+  height: 100%;
+  width: 100%;
+}
+.peluri {
+  float: left;
+  width: 15%;
+  padding: 1px;
+}
+.rivi::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.navbar-toggle{
+  text-align: left;
+  size: 10cm;
+}
+@media screen and (max-width: 600px) {
+  .peluri {
+    width: 100%;
+  }
+  
+}
+.pieni{
+  display: block;
+  margin-left: 0%;
+  margin-right: auto;
+  width: 30%;
+  
+}
+.page3{ 
+  /* The image used */
+  background-image: url("background.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.video {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video iframe, .video object, .video embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+.yhteystiedot{
+  font-family:'Poppins', sans-serif;
+  color: whitesmoke;
+  font-size: 150%;
+  text-align: left;
+}
